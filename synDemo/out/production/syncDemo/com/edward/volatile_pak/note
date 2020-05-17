@@ -1,6 +1,0 @@
-volatile
-1.保证线程可见性 （缓存一致性协议MESI）
-2.禁止指令重排序  （更深原理内存屏障，1.loadfence,storefence原语指令）
-
-DCL （double check lock）双重检查锁单例
-volatile不能保证原子性
