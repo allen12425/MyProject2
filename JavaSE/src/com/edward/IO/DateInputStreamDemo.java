@@ -6,7 +6,5 @@ public class
 DateInputStreamDemo {
     public static void main(String[] args) {
         DataInputStream dataInputStream = null;
-
-
     }
 }
