@@ -1,0 +1,13 @@
+cas vs sync
+ReentrantLock vs synchronized
+
+ReentrantLock的底层也是cas
+
+锁重入
+trylock
+lockinterrupptibly
+公平和非公平
+---------------------------------
+ReadWriteLock  (读和读不互斥，读和写互斥，写和写互斥)
+Read--共享锁
+Write--排他锁或互斥锁
